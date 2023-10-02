@@ -1,0 +1,10 @@
+.menu {
+  background-color: peru;
+  &__item {
+    color: blue;
+    text-decoration: none;
+  &--active, &:hover {
+      color: lightgoldenrodyellow;
+    }
+  }
+}
