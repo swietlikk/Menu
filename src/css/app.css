@@ -17,6 +17,7 @@ html, body {
 }
 .header {
   background-color: lightcoral;
+  transition: all 400ms;
 }
 .header__inner {
   margin-inline: auto;
@@ -28,6 +29,11 @@ html, body {
   flex-wrap: nowrap;
 }
 
+@media screen and (max-width: 960px) {
+  .header {
+    background-color: lightskyblue;
+  }
+}
 .menu {
   align-self: flex-end;
   display: flex;
@@ -53,18 +59,18 @@ html, body {
   border-top-right-radius: 0.25rem;
 }
 .menu__item:link {
-  border-bottom: 0.1875rem solid lightgreen;
+  border-bottom: 0.1875rem solid lightgray;
 }
 .menu__item:visited {
-  border-bottom: 0.1875rem solid lightgreen;
+  border-bottom: 0.1875rem solid lightgray;
 }
 .menu__item--active, .menu__item:hover {
-  border-bottom: 0.1875rem solid lightgreen;
+  border-bottom: 0.1875rem solid lightgray;
   color: white;
   background-color: darkgray;
 }
 .menu__item:active {
-  border-bottom: 0.1875rem solid lightgreen;
+  border-bottom: 0.1875rem solid lightgray;
 }
 
 .logo {
@@ -73,6 +79,10 @@ html, body {
   height: 4rem;
   margin: 0.625rem;
   display: inline-block;
+  transition: all 400ms ease-in-out;
+}
+.logo:hover {
+  transform: rotate(360deg);
 }
 
 /*# sourceMappingURL=app.css.map */

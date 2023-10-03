@@ -8,4 +8,8 @@
   height: rem(64px);
   margin: rem(10px);
   display: inline-block;
+  transition: all 400ms ease-in-out;
+  &:hover {
+    transform: rotate(360deg);
+  }
 }
