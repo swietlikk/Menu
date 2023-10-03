@@ -8,3 +8,4 @@
 3. Zmienne
 4. [Funkcje](https://sass-lang.com/documentation/at-rules/function/)
 5. [Interpolacja](https://sass-lang.com/documentation/interpolation/)
+6. Maps

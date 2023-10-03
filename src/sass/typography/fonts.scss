@@ -1,0 +1,7 @@
+@import "../variables";
+@import "../helpers/mixins";
+
+@each $font-name, $font-file in $fonts {
+  @include font-face($font-name, $font-file);
+}
+
