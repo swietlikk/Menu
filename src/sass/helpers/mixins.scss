@@ -9,3 +9,29 @@
     font-style: normal;
   }
 }
+
+
+@mixin flex($justify-content: flex-start, $align-items: flex-start, $wrap: nowrap){
+  display: flex;
+  justify-content: $justify-content;
+  align-items: $align-items;
+  flex-wrap: $wrap;
+}
+
+
+@mixin link($h-color, $h-bg) {
+  &:link {
+    @content;
+  }
+  &:visited {
+    @content;
+  }
+  &--active, &:hover {
+    @content;
+    color: $h-color;
+    background-color: $h-bg;
+  }
+  &:active {
+    @content;
+  }
+}

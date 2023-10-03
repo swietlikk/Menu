@@ -1,9 +1,11 @@
 @import "../helpers/functions";
 @import "../variables";
 
+
 .logo {
   background-image: url("#{$img-path}/logo.svg");
-  width: rem(100px);
-  height: rem(100px);
+  width: rem(64px);
+  height: rem(64px);
+  margin: rem(10px);
   display: inline-block;
 }
