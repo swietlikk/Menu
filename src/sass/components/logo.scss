@@ -1,5 +1,9 @@
+@import "../helpers/functions";
+@import "../variables";
+
 .logo {
-  background-color: lightblue;
-  &__img {
-  }
+  background-image: url("#{$img-path}/logo.svg");
+  width: rem(100px);
+  height: rem(100px);
+  display: inline-block;
 }

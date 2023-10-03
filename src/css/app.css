@@ -24,7 +24,10 @@ html, body {
 }
 
 .logo {
-  background-color: lightblue;
+  background-image: url("../images/logo.svg");
+  width: 6.25rem;
+  height: 6.25rem;
+  display: inline-block;
 }
 
 /*# sourceMappingURL=app.css.map */
